@@ -7,6 +7,8 @@
     <title>Panda Commerce</title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header starts -->
@@ -44,12 +46,12 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row p-5 d-flex align-items-center bg-gradient" style="background-color: #FEEAE9;">
+                        <div class="row p-5 d-flex align-items-center bg-gradient bg-carousel">
                             <div class="col-lg-7">
                                 <h1>Cool Dude Headphone</h1>
                                 <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
-                                <h1>$420</h1>
-                                <button style="" class="btn btn-warning text-white">Buy Now</button>
+                                <h1><span>$420</span></h1>
+                                <button class="btn custom-btn text-white">Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -57,14 +59,14 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row p-5 d-flex align-items-center bg-gradient" style="background-color: #FEEAE9;">
+                        <div class="row p-5 d-flex align-items-center bg-gradient bg-carousel">
                             <div class="col-lg-7">
                                 <h1>
                                     Mega LCD TV For Sports
                                 </h1>
                                 <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
-                                <h1>$1200</h1>
-                                <button style="" class="btn btn-warning text-white">Buy Now</button>
+                                <h1><span>$1200</span></h1>
+                                <button class="btn custom-btn text-white">Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -72,14 +74,14 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row p-5 d-flex align-items-center bg-gradient" style="background-color: #FEEAE9;">
+                        <div class="row p-5 d-flex align-items-center bg-gradient bg-carousel">
                             <div class="col-lg-7">
                                 <h1>
                                     X-Box for your living room
                                 </h1>
                                 <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
-                                <h1>$600</h1>
-                                <button style="" class="btn btn-warning text-white">Buy Now</button>
+                                <h1><span>$600</span></h1>
+                                <button class="btn custom-btn text-white">Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -105,19 +107,19 @@
         <section class="container my-5">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="p-3 border rounded-3 bg-warning d-flex align-items-center justify-content-between">
+                    <div class="p-3 border rounded-3 bg-catagories-i d-flex align-items-center justify-content-between">
                         <h1 class="text-white">Watch</h1>
                         <img src="images/categories/watch.png" width="100" height="100" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="p-3 border rounded-3 bg-warning d-flex align-items-center justify-content-between">
+                    <div class="p-3 border rounded-3 bg-catagories-ii d-flex align-items-center justify-content-between">
                         <h1 class="text-white">Bag</h1>
                         <img src="images/categories/bag.png" width="100" height="100" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="p-3 border rounded-3 bg-warning d-flex align-items-center justify-content-between">
+                    <div class="p-3 border rounded-3 bg-catagories-iii d-flex align-items-center justify-content-between">
                         <h1 class="text-white">Shoes</h1>
                         <img src="images/categories/shoes.png" width="100" height="100" alt="">
                     </div>
@@ -134,10 +136,11 @@
                     <img src="images/shoes/shoe-1.png" class="card-img-top" height="210" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Supply 350</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                     </div>
                     <div class="m-3">
-                        <button class="btn btn-warning text-white">
+                        <h4>$120</h4>
+                        <button class="btn custom-btn text-white">
                         Buy Now >>
                         </button>
                     </div>
@@ -151,7 +154,8 @@
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     </div>
                     <div class="m-3">
-                        <button class="btn btn-warning text-white">
+                        <h4>$320</h4>
+                        <button class="btn custom-btn text-white">
                         Buy Now >>
                         </button>
                     </div>
@@ -162,10 +166,11 @@
                     <img src="images/shoes/shoe-3.png" class="card-img-top" height="210" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Red Airmax</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                     </div>
                     <div class="m-3">
-                        <button class="btn btn-warning text-white">
+                        <h4>$350</h4>
+                        <button class="btn custom-btn text-white">
                         Buy Now >>
                         </button>
                     </div>
@@ -183,10 +188,11 @@
                     <img src="images/bags/bag-1.png" class="card-img-top" height="324.33" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Red Laltu Bag</h4>
+                        <h4>$120</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                     <div class="m-3">
-                        <button class="btn btn-warning text-white">
+                        <button class="btn custom-btn text-white">
                         Buy Now >>
                         </button>
                     </div>
@@ -197,10 +203,11 @@
                     <img src="images/bags/bag-2.png" class="card-img-top" height="324.33" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Blue Niltu Bag</h4>
+                        <h4>$320</h4>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     </div>
                     <div class="m-3">
-                        <button class="btn btn-warning text-white">
+                        <button class="btn custom-btn text-white">
                         Buy Now >>
                         </button>
                     </div>
@@ -211,10 +218,11 @@
                     <img src="images/bags/bag-3.png" class="card-img-top" height="324.33" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Black Kaltu Bag</h4>
+                        <h4>$169</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                     <div class="m-3">
-                        <button class="btn btn-warning text-white">
+                        <button class="btn custom-btn text-white">
                         Buy Now >>
                         </button>
                     </div>
@@ -224,13 +232,13 @@
         </section>
 
         <!-- subscribe -->
-        <section class="container d-flex justify-content-center align-items-center rounded-3" style="background-color:  #FFF2F1; height: 300px;" id="subscribe"> 
+        <section class="container d-flex justify-content-center align-items-center rounded-3 bg-subscribe" style="height: 300px;" id="subscribe"> 
             <div>
                 <h2>LET'S STAY IN TOUCH</h2>
-                <h6 style="color: #707070;">Get updates on sales, specials and more</h6>
+                <h6>Get updates on sales, specials and more</h6>
                 <input type="text">
                 <br>
-                <button class="btn btn-warning text-white">
+                <button class="btn custom-btn text-white">
                 Submit
                 </button>
             </div>
